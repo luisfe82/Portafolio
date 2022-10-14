@@ -13,6 +13,7 @@ coloque nas sessões indicadas*/
 
 html{
     scroll-behavior: smooth;
+    color: #464646;
 }
 
 body {
@@ -54,7 +55,6 @@ a{
 .cabecera__logo__titulo{
     font-weight: 700;
     font-size: 16px;
-    color: #464646;
     padding-left: 0.5rem;
 }
 
@@ -80,10 +80,13 @@ a{
 .cabecera__menu__contacto {
     font-weight: 400;
     font-size: 0.876rem;
-    color: #464646;
 }
 
 @media screen and (min-width:768px){
+    .cabecera{
+        padding: 0 2rem;
+        margin-bottom: 1.5rem;
+    }
     .cabecera__menu__contacto{
         font-weight: 700;
         font-size: 1rem;
@@ -93,7 +96,7 @@ a{
 
 @media screen and (min-width:922px){
     .cabecera{
-        padding:2rem 4rem;
+        padding: 2rem 9.5rem 0 9.5rem;
     }
     .cabecera__menu__list{
         display: flex;        
