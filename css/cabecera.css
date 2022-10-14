@@ -1,0 +1,107 @@
+/*CSS Reset / Normalize*/
+/* Hemos disponibilizado el básico de reset de estilos. Si quieren, añadan más informaciones 
+en las secciones señaladas */
+/*Já deixaremos o básico de reset de estilos. Caso queira adicionar mais informações
+coloque nas sessões indicadas*/
+
+:root{
+    /* Inserta la variable de los otros colores inspeccionando el exemplo de figma */
+    /*Se esforce para trabalhar com variáveis, é uma dica profissional valiosa*/
+   --cor-de-fundo: #F5F5F5;
+   --cor-de-link: #000;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body {
+    box-sizing: border-box;
+    background-color: var(--cor-de-fundo) ;
+    font-family: 'Raleway';
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+}
+ol, ul,li {
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: var(--cor-de-link);
+}
+
+/*?  Cabecera  */
+
+.cabecera{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:1rem 1rem;
+}
+
+.cabecera__logo{
+    display: flex;
+    align-items: center;        
+}
+
+.cabecera__logo__imagen{
+    background: url("../img/vector.png") no-repeat center / cover;
+    width: 1.4rem;
+    height: 1.4rem ;
+}
+
+.cabecera__logo__titulo{
+    font-weight: 700;
+    font-size: 16px;
+    color: #464646;
+    padding-left: 0.5rem;
+}
+
+.cabecera__menu{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cabecera__menu__list{
+    display: none;
+}
+
+.cabecera__menu__list .activo{
+    color: #000000;
+    font-weight: bold;
+}
+
+.item__link:hover{
+    text-decoration: underline;
+}
+
+.cabecera__menu__contacto {
+    font-weight: 400;
+    font-size: 0.876rem;
+    color: #464646;
+}
+
+@media screen and (min-width:768px){
+    .cabecera__menu__contacto{
+        font-weight: 700;
+        font-size: 1rem;
+    }
+    
+}
+
+@media screen and (min-width:922px){
+    .cabecera{
+        padding:2rem 4rem;
+    }
+    .cabecera__menu__list{
+        display: flex;        
+    }
+    .cabecera__menu__list--item{
+        margin: 0 0.9rem 0 0;
+    }
+    .cabecera__menu__contacto{
+        display: none;
+    }
+}

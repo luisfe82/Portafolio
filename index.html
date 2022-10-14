@@ -13,47 +13,47 @@
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap" rel="stylesheet">
     <title> Mi Portafolio</title>
 
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/cabecera.css">
 </head>
 
 <body>
 
-    <!-- Sección del Menú  -->
-    <section class="menu">
-        <header class="menu__header">
-            <img src="img\vector.png">
-            <h3 class="menu__title">Fulana de Tal</h3>
-        </header>
-        <nav>
-            <ul class="menu__list">
-                <li class="menu__list__item"><a href="#sobre-mi">Sobre mi</a></li>
-                <li class="menu__list__item"><a href="#skills">Skills</a></li>
-                <li class="menu__list__item"><a href="#hobbies">Hobbies</a></li>
-                <li class="menu__list__item"><a href="#formacion">Formación</a></li>
-                <li class="menu__list__item"><a href="#xp">Proyectos</a></li>
-                <li class="menu__list__item"><a href="#contacto">Contacto@fulana.com</a></li>
+    <!--? Cabecera -->
+    <header class="cabecera">
+        <div class="cabecera__logo">
+            <div class="cabecera__logo__imagen"></div>
+            <h3 class="cabecera__logo__titulo">Luis Fe Ramos</h3>
+        </div>
+        <nav class="cabecera__menu">
+            <ul class="cabecera__menu__list">
+                <li class="cabecera__menu__list--item"><a class="item__link activo" href="#sobre-mi">Sobre mi</a></li>
+                <li class="cabecera__menu__list--item"><a class="item__link"  href="#skills">Skills</a></li>
+                <li class="cabecera__menu__list--item"><a class="item__link"  href="#hobbies">Hobbies</a></li>
+                <li class="cabecera__menu__list--item"><a class="item__link"  href="#formacion">Formación</a></li>
+                <li class="cabecera__menu__list--item"><a class="item__link"  href="#xp">Proyectos</a></li>
+                <li class="cabecera__menu__list--item"><a class="item__link"  href="#contacto">luisfediana@gmail.com</a></li>
             </ul>
-            <li class="menu__list__item__contato"><a href="#contacto">contacto@fulana.com</a></li>
+            <div class="cabecera__menu__contacto"><a href="#contacto">luisfediana@gmail.com</a></div>
         </nav>
-    </section>
+    </header>
 
+
+    <!--? Contenido  -->
     <main>
-        <!-- Sección del Header/Title/Hero -->
-        <section class="title">
-            <div class="title__div">
-                <img class="title__profile" src="img\profile.png">
-                <div class="title__container">
-                    <h2 class="title__bio">Hola, mi nombre es Fulana de Tal y construyo paginas web</h2>
-                    <h3 class="title__subsection">Soy formada en .... lorem ipsum sit amet consectetur y actualmente
-                        estoy participando del proyecto Oracle ONE en Alura Latam.</h3>
-                    <ul class="title__network">
-                        <!-- Pon los enlaces de tus redes sociales favoritas -->
-                        <li class="title__network__item"><a href="">Github <img src="img\arrow.png"> </a></li>
-                        <li class="title__network__item"><a href="">Linkedin <img src="img\arrow.png"></a></li>
-                        <li class="title__network__item"><a href="">Instagram <img src="img\arrow.png"></a></li>
-                        <li class="title__network__item"><a href="">Currículo <img src="img\arrow.png"></a></li>
-                    </ul>
-                </div>
+        <!--? Sección del Header/Title/Hero -->
+        <section>
+            <img class="title__profile" src="img\profile.png">
+            <div class="title__container">
+                <h2 class="title__bio">Hola, mi nombre es Fulana de Tal y construyo paginas web</h2>
+                <h3 class="title__subsection">Soy formada en .... lorem ipsum sit amet consectetur y actualmente
+                    estoy participando del proyecto Oracle ONE en Alura Latam.</h3>
+                <ul class="title__network">
+                    <!-- Pon los enlaces de tus redes sociales favoritas -->
+                    <li class="title__network__item"><a href="">Github <img src="img\arrow.png"> </a></li>
+                    <li class="title__network__item"><a href="">Linkedin <img src="img\arrow.png"></a></li>
+                    <li class="title__network__item"><a href="">Instagram <img src="img\arrow.png"></a></li>
+                    <li class="title__network__item"><a href="">Currículo <img src="img\arrow.png"></a></li>
+                </ul>
             </div>
         </section>
 
@@ -302,6 +302,9 @@
             </div>
         </section>
     </main>
+
+
+
 
     <!-- Sección de Footer -->
     <section class="footer">
