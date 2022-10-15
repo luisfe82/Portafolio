@@ -13,12 +13,15 @@
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap" rel="stylesheet">
     <title> Mi Portafolio</title>
 
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/1-cabecera.css">
     <link rel="stylesheet" href="css/2-presenta.css">
     <link rel="stylesheet" href="css/3-sobre.css">
     <link rel="stylesheet" href="css/4-skills.css">
     <link rel="stylesheet" href="css/5-hobbies.css">
     <link rel="stylesheet" href="css/6-academic.css">
+    <link rel="stylesheet" href="css/7-experiencia.css">
 </head>
 
 <body>
@@ -229,23 +232,56 @@
 
         <!-- Sección de Experiencia Profesional/Proyectos-->
         <section class="experiencia" id="xp">
-            <h2 class="experiencia__titulo">Experiencia Profissional</h2>
+            <h2 class="experiencia__titulo">Experiencia Profesional</h2>
             <div class="experiencia__contenedor">
 
                 <div class="experiencia__caja">
                     <!-- Pon el logotipo/captura de pantalla de tu proyecto -->
                     <div class="experiencia__caja--imagen"><img src="img\decod_print.png"></div>
-                    <div class="experience__caja--info">
-                        <h2 class="experience__caja--info__titulo">Encriptador de texto</h2>
-                        <h3 class="experience__caja--info__descripcion">Challenge Alura Codificador </h3>
-                        <div class="experience__caja--info__links">
+                    <div class="experiencia__caja--info">
+                        <h2 class="experiencia__caja--info__titulo">Codigo Secreto</h2>
+                        <h3 class="experiencia__caja--info__descripcion">Challenge Oracle - Alura</h3>
+                        <div class="experiencia__caja--info__links">
                             <!-- Pon el enlace del proyecto en Github o GithubPages -->
-                            <span class="experience__caja--info__links__repo">
-                                <a href="#" target="_blank">Repositório</a>
-                            </span>
-                            <span class="experience__caja--info__links__demo"><a href="">
-                                    <a class="#" target="_blank">Ver demo</a>
-                            </span>
+                            <a href="#" class="experiencia__caja--info__links__boton">
+                                Repositório
+                            </a>
+                            <a href="#" class="experiencia__caja--info__links__boton">                                    Ver demo
+                            </a>
+                        </div>
+                    </div>
+                </div><!-- experiencia__caja-->
+
+                <div class="experiencia__caja">
+                    <!-- Pon el logotipo/captura de pantalla de tu proyecto -->
+                    <div class="experiencia__caja--imagen"><img src="img/forca2_print.png"></div>
+                    <div class="experiencia__caja--info">
+                        <h2 class="experiencia__caja--info__titulo">Juego creado con HTML, CSS y JavaScript</h2>
+                        <h3 class="experiencia__caja--info__descripcion">Challenge Oracle - Alura</h3>
+                        <div class="experiencia__caja--info__links">
+                            <!-- Pon el enlace del proyecto en Github o GithubPages -->
+                            <a href="#" class="experiencia__caja--info__links__boton">
+                                Repositório
+                            </a>
+                            <a href="#" class="experiencia__caja--info__links__boton">                                    Ver demo
+                            </a>
+                        </div>
+                    </div>
+                </div><!-- experiencia__caja-->
+
+                <div class="experiencia__caja">
+                    <!-- Pon el logotipo/captura de pantalla de tu proyecto -->
+                    <div class="experiencia__caja--imagen"><img src="img/secretcode_print.png"></div>
+                    <div class="experiencia__caja--info">
+                        <h2 class="experiencia__caja--info__titulo">Encriptador de texto</h2>
+                        <h3 class="experiencia__caja--info__descripcion">Challenge Oracle - Alura</h3>
+                        <div class="experiencia__caja--info__links">
+                            <!-- Pon el enlace del proyecto en Github o GithubPages -->
+                            <a href="#" class="experiencia__caja--info__links__boton">
+                                Repositório
+                            </a>
+                            <a href="#" class="experiencia__caja--info__links__boton">                                    Ver demo
+                            </a>
                         </div>
                     </div>
                 </div><!-- experiencia__caja-->
@@ -253,7 +289,7 @@
 
             </div><!-- experiencia__contenedor-->
         </section><!-- experiencia -->
-        
+
         <!-- Sección de Contacto -->
         <section class="formcontato" id="contacto">
             <div class="formcontato__contacto">
@@ -276,9 +312,8 @@
                 </div>
             </div>
         </section>
+
     </main>
-
-
 
 
     <!-- Sección de Footer -->
