@@ -5,12 +5,12 @@
 .presenta__div{
     width: 100px;
     height: 100px;
+    margin: 2rem 0;
 }
 
 .presenta__imagen{
     background: url("../img/profile.png") no-repeat center / cover;
     border-radius: 100%;
-    /* box-shadow: 2px 3px 4px #6f6f6f; */
     width: 98px;
     height: 98px;
 }
@@ -24,7 +24,8 @@
 .presenta__caja__descripcion{
     font-weight: 400;
     font-size: 14px;    
-    line-height: 16px;    
+    line-height: 16px;  
+    padding: 1rem 0;  
 }
 
 .presenta__caja__link{

@@ -21,10 +21,7 @@
     margin: 0.5rem 0;
 }
 .skills__contenedor__caja ul{
-    padding: 1.8rem 0rem 0rem 1rem;
-}
-.skills__contenedor__caja--imagen{
-    padding-bottom: 0.5rem;
+    padding: 2.8rem 0rem 0rem 1rem;
 }
 .skills__contenedor__caja--nombre{
     font-weight: 700;
@@ -42,6 +39,11 @@
 @media screen and (min-width:992px){
     .skills{
         padding: 0 9.5rem;
+    }
+    .skills__titulo{
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 38px;
     }
     .skills__contenedor__caja{
         width: 161.6px;
