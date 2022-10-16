@@ -329,7 +329,7 @@
                         Complete el siguiente formulario y me pondré en contacto con usted lo antes posible. 
                     </h3>
                     
-                    <form class="fcontacto__form" name="form">
+                    <form class="fcontacto__form" action="https://formsubmit.co/luisfediana@gmail.com" name="form" method="POST">
                         <div class="fcontacto__form__input-container">
                             <input name="name" id="name" class="input" type="text" placeholder="Nombre" required
                                 data-tipo="nombre">
@@ -352,7 +352,11 @@
                             <textarea name="mensaje" id="mensaje" class="textarea" type="text" placeholder="Mensaje" cols="35" rows="10" required data-tipo="mensaje" minlegth="4" maxlength="500" required ></textarea>
                             <label class="textarea-label" for="mensaje">Mensaje</label>
                             <span class="input-message-error">Este campo no es valido</span>
-                        </div>                              
+                        </div>                      
+                        
+                        <input type="hidden" name="_next" value="http://127.0.0.1:5500/index.html">
+                        <input type="hidden" name="_captcha" value="false">
+                        
                         <button class="fcontacto__form__boton"  type="submit" >Enviar mensaje</button>
                     </form>
 
