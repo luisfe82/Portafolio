@@ -1,0 +1,114 @@
+.presenta{
+    padding: 1rem 1rem;
+}
+
+.presenta__div{
+    width: 100px;
+    height: 100px;
+    margin: 2rem 0;
+}
+
+.presenta__imagen{
+    background: url("../img/profile.png") no-repeat center / cover;
+    border-radius: 100%;
+    width: 98px;
+    height: 98px;
+}
+
+.presenta__caja__titulo{
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 26px;
+}
+
+.presenta__caja__descripcion{
+    font-weight: 400;
+    font-size: 14px;    
+    line-height: 16px;  
+    padding: 1rem 0;  
+}
+
+.presenta__caja__link{
+    display: flex;
+    padding: 0;
+    justify-content: space-between;
+}
+
+.presenta__caja__link--item{
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+@media screen and (min-width:768px){
+    .presenta{
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+        padding: 0 2rem;
+    }
+
+    .presenta__caja {
+        padding-right: 4.6rem;
+    }
+
+    .presenta__caja__titulo{
+        font-weight: 700;
+        font-size: 22px;    
+        line-height: 26px;    
+    }
+    .presenta__caja__descripcion{
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+    }
+    .presenta__div{
+        width: 161px;
+        height: 161px;        
+    }
+    .presenta__imagen{
+        width: 160px;
+        height: 160px;
+    }
+    .presenta__caja__link--item{
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 19px;
+    }
+
+    
+}
+@media screen and (min-width:992px){
+    .presenta{
+        padding: 0 9.5rem;
+    }
+    .presenta__caja__titulo{
+        font-weight: 700;
+        font-size: 50px;
+        line-height: 59px;
+    }
+    .presenta__caja__descripcion{
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 24px;
+    }
+    .presenta__div{
+        width: 368px;
+        height: 368px;        
+    }
+    .presenta__imagen{
+        width: 365px;
+        height: 365px;
+    }
+    .presenta__caja__link{
+        display: flex;
+        padding: 0;
+        justify-content: flex-start;
+    }
+    .presenta__caja__link--item{
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 19px;
+        padding-right: 2rem;
+    }
+}

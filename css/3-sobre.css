@@ -1,0 +1,53 @@
+.sobre{
+    background: #EAF2FD;
+    width:100%;
+}
+.sobre__contenedor{
+    padding: 1rem;
+}
+
+.sobre__contenedor__titulo{
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 26px;
+}
+
+.sobre__contenedor__descripcion{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: justify;
+    padding: 1rem 0;
+}
+.sobre__contenedor__imagen{
+    background: url("../img/signature.png")no-repeat center / cover;
+    width: 8.75rem;
+    height: 3.25rem;
+}
+
+@media screen and (min-width:768px){
+    .sobre__contenedor{
+        padding: 2rem 2rem;
+    }
+    .sobre__contenedor__descripcion{
+        line-height: 24px;
+    }
+}
+
+@media screen and (min-width:992px){
+    .sobre__contenedor{
+        padding: 2rem 9.5rem;
+        width: 60rem;
+    }
+    .sobre__contenedor__titulo{
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 38px;
+    }
+    .sobre__contenedor__descripcion{
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+    }
+}
+

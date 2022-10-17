@@ -1,0 +1,104 @@
+.experiencia{
+    padding: 1rem 1rem;
+}
+.experiencia__titulo{
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 26px;
+    text-align: center;
+    padding: 1.5rem 0;
+}
+
+.experiencia__contenedor{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.experiencia__contenedor,
+.experiencia__caja--imagen,
+.experiencia__caja--info{
+    width: 100%;
+}
+.experiencia__caja{
+    display: flex;
+    flex-wrap: wrap;
+    margin:2rem 0;
+}
+
+.experiencia__caja--imagen{
+    padding-bottom: 1rem;
+}
+
+.experiencia__caja--imagen img{
+    width: 100%;
+}
+
+.experiencia__caja--info__titulo{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 19px;
+    
+}
+.experiencia__caja--info__descripcion{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    padding: 0.5rem 0;
+}
+.experiencia__caja--info__links{
+    display: flex;
+    flex-wrap: wrap;
+    height: 44px;
+    gap:1rem;
+}
+.experiencia__caja--info__links__boton{
+    padding: 0.8rem 0.8rem;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 16px;
+}
+
+.experiencia__caja--info__links__boton:nth-child(1){
+    color: #2A7AE4;
+    border:1px solid #2A7AE4;
+}
+.experiencia__caja--info__links__boton:nth-child(2){
+    background:#2A7AE4;
+    color: #ffffff;
+}
+
+@media screen and (min-width:768px){
+    .experiencia{
+        padding: 0 2rem;
+    }
+}
+
+@media screen and (min-width:992px){
+    .experiencia{
+        padding: 0 9.5rem;
+    }
+    .experiencia__titulo{
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 38px;
+    }
+    .experiencia__caja--imagen{
+        width: 752px;
+    }
+    .experiencia__caja--info{
+        width: 293px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        padding-left: 2rem;
+    }
+    .experiencia__caja--info__titulo{
+        font-weight: 700;
+        font-size: 22px;
+        line-height: 26px;
+    }
+    .experiencia__caja:nth-child(even){
+        flex-direction: row-reverse;
+    }
+}
